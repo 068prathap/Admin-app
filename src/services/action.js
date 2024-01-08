@@ -32,7 +32,7 @@ export const loginThunk = (payload) => (dispatch) => {
     // console.log(payload);
     axios({
         method: "POST",
-        url: "https://node.mitrahsoft.co.in/login",
+        url: "http://node.mitrahsoft.co.in/login",
         data: {
             email: payload.email,
             password: payload.password
